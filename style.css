@@ -1,0 +1,36 @@
+/* :root {
+	--clr-text: #050300;
+	--clr-surface: #fef8f1;
+	--clr-primary: #2e80ea;
+	--clr-secondary: #fae8d1;
+	--clr-accent: #19e6b3;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--clr-text: #050300;
+		--clr-surface: #fef8f1;
+		--clr-primary: #2e80ea;
+		--clr-secondary: #fae8d1;
+		--clr-accent: #19e6b3;
+	}
+} */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+html {
+	color-scheme: light dark;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
