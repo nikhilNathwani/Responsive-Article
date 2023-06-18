@@ -1,20 +1,23 @@
-/* :root {
-	--clr-text: #050300;
-	--clr-surface: #fef8f1;
-	--clr-primary: #2e80ea;
-	--clr-secondary: #fae8d1;
-	--clr-accent: #19e6b3;
+:root {
+	--clr-text: hsl(0, 0%, 3%);
+	--clr-surface: hsl(28, 94%, 96%);
+	--clr-primary: hsl(215, 75%, 56%);
+	--clr-secondary: hsl(31, 80%, 89%);
+	--clr-accent: hsl(169, 85%, 43%);
+
+	--ff-base: "IBM Plex Sans", sans-serif;
+	--ff-accent: "IBM Plex Sans Condensed", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--clr-text: #050300;
-		--clr-surface: #fef8f1;
-		--clr-primary: #2e80ea;
-		--clr-secondary: #fae8d1;
-		--clr-accent: #19e6b3;
+		--clr-text: hsl(28, 94%, 96%);
+		--clr-surface: hsl(0, 0%, 3%);
+		--clr-primary: hsl(215, 75%, 56%);
+		--clr-secondary: hsl(31, 80%, 16%);
+		--clr-accent: hsl(169, 85%, 43%);
 	}
-} */
+}
 
 *,
 *::before,
